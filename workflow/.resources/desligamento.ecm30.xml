@@ -2,9 +2,9 @@
   <ProcessDefinition>
     <processDefinitionPK>
       <companyId>1</companyId>
-      <processId>transferencia</processId>
+      <processId>desligamento</processId>
     </processDefinitionPK>
-    <processDescription>transferencia</processDescription>
+    <processDescription>desligamento</processDescription>
     <instruction></instruction>
     <active>true</active>
     <publicProcess>false</publicProcess>
@@ -27,8 +27,8 @@
   <ProcessDefinitionVersion>
     <processDefinitionVersionPK>
       <companyId>1</companyId>
-      <processId>transferencia</processId>
-      <version>6</version>
+      <processId>desligamento</processId>
+      <version>1</version>
     </processDefinitionVersionPK>
     <versionDescription></versionDescription>
     <formId>0</formId>
@@ -49,7 +49,7 @@
     <ProcessState>
       <processStatePK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <sequence>4</sequence>
       </processStatePK>
@@ -99,7 +99,7 @@
     <ProcessState>
       <processStatePK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <sequence>5</sequence>
       </processStatePK>
@@ -149,7 +149,7 @@
     <ProcessState>
       <processStatePK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <sequence>9</sequence>
       </processStatePK>
@@ -175,8 +175,8 @@
       <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
       <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
       <automatic>false</automatic>
-      <positionX>437</positionX>
-      <positionY>233</positionY>
+      <positionX>399</positionX>
+      <positionY>235</positionY>
       <forecastedEffortType>0</forecastedEffortType>
       <forecastedEffort>0</forecastedEffort>
       <notifyManagerFollowUp>false</notifyManagerFollowUp>
@@ -199,7 +199,7 @@
     <ProcessLink>
       <processLinkPK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <linkSequence>6</linkSequence>
       </processLinkPK>
@@ -216,7 +216,7 @@
     <ProcessLink>
       <processLinkPK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <linkSequence>10</linkSequence>
       </processLinkPK>
@@ -246,7 +246,7 @@
       <parentSequence>0</parentSequence>
       <swimLanePK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <sequence>1</sequence>
       </swimLanePK>
@@ -262,7 +262,7 @@
       <parentSequence>1</parentSequence>
       <swimLanePK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <sequence>2</sequence>
       </swimLanePK>
@@ -278,7 +278,7 @@
       <parentSequence>1</parentSequence>
       <swimLanePK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <sequence>3</sequence>
       </swimLanePK>
@@ -291,7 +291,7 @@
       <positionY>20</positionY>
       <processComponGrafPK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <componGrafSequence>7</componGrafSequence>
       </processComponGrafPK>
@@ -302,7 +302,7 @@
     <ProcessLinkAssoc>
       <processLinkAssocPK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
+        <processId>desligamento</processId>
         <version>1</version>
         <linkSequence>8</linkSequence>
       </processLinkAssocPK>
@@ -314,8 +314,8 @@
     <ProcessLinkBend>
       <processLinkBendPK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
-        <version>6</version>
+        <processId>desligamento</processId>
+        <version>1</version>
         <linkSequence>6</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -325,8 +325,8 @@
     <ProcessLinkBend>
       <processLinkBendPK>
         <companyId>1</companyId>
-        <processId>transferencia</processId>
-        <version>6</version>
+        <processId>desligamento</processId>
+        <version>1</version>
         <linkSequence>8</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_461" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>volume</string>
+   <array class="java.lang.String" length="1">
+    <void index="0">
+     <string>Default</string>
+    </void>
+   </array>
+  </void>
+  <void method="put">
+   <string>expediente</string>
+   <array class="java.lang.String" length="1">
+    <void index="0">
+     <string>Full</string>
+    </void>
+   </array>
+  </void>
+  <void method="put">
+   <string>mecanismo</string>
+   <array class="[Ljava.lang.Object;" length="0"/>
+  </void>
+  <void method="put">
+   <string>forms</string>
+   <object class="java.util.LinkedList">
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>ds_criappr</string>
+      </void>
+      <void property="documentDescription">
+       <string>form_criappr</string>
+      </void>
+      <void property="documentId">
+       <int>34</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>ds_acompanhamento_metas</string>
+      </void>
+      <void property="documentDescription">
+       <string>form_acompanhamento_metas</string>
+      </void>
+      <void property="documentId">
+       <int>35</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>ds_pesquisa_comportamental</string>
+      </void>
+      <void property="documentDescription">
+       <string>form_pesquisa_comportamental</string>
+      </void>
+      <void property="documentId">
+       <int>36</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>ds_transferencia</string>
+      </void>
+      <void property="documentDescription">
+       <string>form_transferencia</string>
+      </void>
+      <void property="documentId">
+       <int>50</int>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
