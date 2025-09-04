@@ -111,31 +111,31 @@
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="76" x="390" y="291"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="106" height="76" x="390" y="291"/>
       <link businessObjects="task7"/>
       <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.1" incomingConnections="/0/@connections.4 /0/@connections.7"/>
       <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="/0/@children.5/@graphicsAlgorithm" relativeWidth="1.0" relativeHeight="0.51">
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="105" height="76" style="/0/@styles.45" cornerHeight="5" cornerWidth="5"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="106" height="76" style="/0/@styles.45" cornerHeight="5" cornerWidth="5"/>
       </children>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="95" height="66" x="5" y="5" style="/0/@styles.46" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Aprova&#xe7;&#xe3;o N&#xed;vel 2"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="96" height="66" x="5" y="5" style="/0/@styles.46" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Aprova&#xe7;&#xe3;o N&#xed;vel 2"/>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="76" x="560" y="420"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="106" height="76" x="560" y="420"/>
       <link businessObjects="task9"/>
       <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.5" incomingConnections="/0/@connections.2 /0/@connections.8"/>
       <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="/0/@children.6/@graphicsAlgorithm" relativeWidth="1.0" relativeHeight="0.51">
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="105" height="76" style="/0/@styles.48" cornerHeight="5" cornerWidth="5"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="106" height="76" style="/0/@styles.48" cornerHeight="5" cornerWidth="5"/>
       </children>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="95" height="66" x="5" y="5" style="/0/@styles.49" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Aprova&#xe7;&#xe3;o N&#xed;vel 3"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="96" height="66" x="5" y="5" style="/0/@styles.49" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Aprova&#xe7;&#xe3;o N&#xed;vel 3"/>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -263,7 +263,7 @@
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="55" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="Superitendente&#xA;"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="61" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="Superitendente&#xA;>&#xA;"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0">
@@ -282,7 +282,7 @@
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="125" height="55" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="Superitendente&#xA;Geral&#xA;"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="125" height="61" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="Superitendente&#xA;Geral >&#xA;"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0">
@@ -316,7 +316,7 @@
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="55" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="Gerente&#xA;"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="55" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="Gerente >&#xA;"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0">
@@ -328,17 +328,17 @@
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="60" x="920" y="428"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="106" height="60" x="920" y="428"/>
       <link businessObjects="servicetask46"/>
       <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.16" incomingConnections="/0/@connections.15"/>
       <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="/0/@children.16/@graphicsAlgorithm" relativeWidth="1.0" relativeHeight="0.51">
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="105" height="60" style="/0/@styles.97" cornerHeight="5" cornerWidth="5"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="106" height="60" style="/0/@styles.97" cornerHeight="5" cornerWidth="5"/>
       </children>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="95" height="50" x="5" y="5" style="/0/@styles.98" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Integra RM"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="96" height="50" x="5" y="5" style="/0/@styles.98" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Integra RM"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="5" y="5" id="com.totvs.tds.ecm.designer.task.service" stretchH="false" stretchV="false" proportional="false"/>
@@ -2733,23 +2733,23 @@
   <bpmn2:BpmnGateway id="exclusivegateway22" name="Aprovado?" incoming="flow23 flow34 flow42" outgoing="flow24 flow33 flow38" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>task7&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
   <bpmn2:SequenceFlow id="flow23" name="" sourceRef="task5" targetRef="exclusivegateway22" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:SequenceFlow id="flow24" name="Sim" sourceRef="exclusivegateway22" targetRef="task7" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
-  <bpmn2:BpmnGateway id="exclusivegateway25" name="Aprovado?" incoming="flow26" outgoing="flow42 flow44" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>endterminate36&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
+  <bpmn2:BpmnGateway id="exclusivegateway25" name="Aprovado?" incoming="flow26" outgoing="flow42 flow44" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>servicetask46&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
   <bpmn2:SequenceFlow id="flow26" name="" sourceRef="task9" targetRef="exclusivegateway25" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:BpmnAnnotation id="annotationtask27" name="RH" outgoing="flow28" type="0"/>
-  <bpmn2:SequenceFlow id="flow28" name="" sourceRef="annotationtask27" targetRef="task5" atividadeFluxo="" extendedFields="&lt;list/>"/>
-  <bpmn2:BpmnAnnotation id="annotationtask29" name="Superitendente" outgoing="flow30" type="0"/>
-  <bpmn2:SequenceFlow id="flow30" name="" sourceRef="annotationtask29" targetRef="task7" atividadeFluxo="" extendedFields="&lt;list/>"/>
-  <bpmn2:BpmnAnnotation id="annotationtask31" name="Superitendente Geral" outgoing="flow32" type="0"/>
-  <bpmn2:SequenceFlow id="flow32" name="" sourceRef="annotationtask31" targetRef="task9" atividadeFluxo="" extendedFields="&lt;list/>"/>
+  <bpmn2:SequenceFlow id="flow28" name="" sourceRef="annotationtask27" targetRef="task5" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
+  <bpmn2:BpmnAnnotation id="annotationtask29" name="Superitendente >" outgoing="flow30" type="0"/>
+  <bpmn2:SequenceFlow id="flow30" name="" sourceRef="annotationtask29" targetRef="task7" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
+  <bpmn2:BpmnAnnotation id="annotationtask31" name="Superitendente Geral >" outgoing="flow32" type="0"/>
+  <bpmn2:SequenceFlow id="flow32" name="" sourceRef="annotationtask31" targetRef="task9" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:SequenceFlow id="flow33" name="Edi&#xe7;&#xe3;o" sourceRef="exclusivegateway22" targetRef="startevent4" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:SequenceFlow id="flow34" name="N&#xe3;o" sourceRef="exclusivegateway17" targetRef="exclusivegateway22" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:BpmnEndEvent id="endterminate36" name="Termina&#xe7;&#xe3;o imediata de processo" incoming="flow45" type="68" signalId="0"/>
   <bpmn2:SequenceFlow id="flow38" name="Cancelamento" sourceRef="exclusivegateway22" targetRef="endcancel20" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
-  <bpmn2:BpmnAnnotation id="annotationtask39" name="Gerente" outgoing="flow40" type="0"/>
-  <bpmn2:SequenceFlow id="flow40" name="" sourceRef="annotationtask39" targetRef="startevent4" atividadeFluxo="" extendedFields="&lt;list/>"/>
+  <bpmn2:BpmnAnnotation id="annotationtask39" name="Gerente >" outgoing="flow40" type="0"/>
+  <bpmn2:SequenceFlow id="flow40" name="" sourceRef="annotationtask39" targetRef="startevent4" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:SequenceFlow id="flow41" name="" sourceRef="startevent4" targetRef="endcancel20" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:SequenceFlow id="flow42" name="N&#xe3;o" sourceRef="exclusivegateway25" targetRef="exclusivegateway22" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:SequenceFlow id="flow44" name="" sourceRef="exclusivegateway25" targetRef="servicetask46" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:SequenceFlow id="flow45" name="" sourceRef="servicetask46" targetRef="endterminate36" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
-  <bpmn2:BpmnTask id="servicetask46" name="Integra RM" incoming="flow44" outgoing="flow45" type="82" managerMechanism="" loopType="0" authNotify="true" serviceName="" scriptFileName="aumento_quadro.servicetask46.js" expediente="" selecionaColaboradores="1" esforcoCalculo="0" executionType="2" executionSucessfulMessage="Requisi&#xe7;&#xe3;o criada no RM"/>
+  <bpmn2:BpmnTask id="servicetask46" name="Integra RM" incoming="flow44" outgoing="flow45" type="82" managerMechanism="" loopType="0" authNotify="true" serviceName="" scriptFileName="aumento_quadro.servicetask46.js" expediente="" selecionaColaboradores="1" esforcoCalculo="0" executionType="2" executionAttempts="0" executionSucessfulMessage="Requisi&#xe7;&#xe3;o criada no RM" frequency="0"/>
 </xmi:XMI>

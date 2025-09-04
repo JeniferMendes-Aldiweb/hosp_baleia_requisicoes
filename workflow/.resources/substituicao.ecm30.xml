@@ -402,7 +402,7 @@
         <sequence>15</sequence>
       </conditionProcessStatePK>
       <condition>1==1</condition>
-      <destinationSequenceId>0</destinationSequenceId>
+      <destinationSequenceId>44</destinationSequenceId>
       <conditionType>0</conditionType>
     </ConditionProcessState>
     <ConditionProcessState>
@@ -414,7 +414,7 @@
         <sequence>18</sequence>
       </conditionProcessStatePK>
       <condition>1==1</condition>
-      <destinationSequenceId>0</destinationSequenceId>
+      <destinationSequenceId>21</destinationSequenceId>
       <conditionType>0</conditionType>
     </ConditionProcessState>
   </list>
@@ -883,7 +883,7 @@
       <processId>substituicao</processId>
       <version>1</version>
       <sequence>44</sequence>
-      <attempts>1</attempts>
+      <attempts>0</attempts>
       <sucessFullMessage>Requisição criada no RM</sucessFullMessage>
       <serviceName></serviceName>
       <frequency>1</frequency>

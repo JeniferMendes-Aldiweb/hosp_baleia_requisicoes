@@ -501,7 +501,7 @@
         <sequence>25</sequence>
       </conditionProcessStatePK>
       <condition>1==1</condition>
-      <destinationSequenceId>0</destinationSequenceId>
+      <destinationSequenceId>46</destinationSequenceId>
       <conditionType>0</conditionType>
     </ConditionProcessState>
   </list>
@@ -880,7 +880,7 @@
         <version>1</version>
         <componGrafSequence>29</componGrafSequence>
       </processComponGrafPK>
-      <stateName>Superitendente</stateName>
+      <stateName>Superitendente &gt;</stateName>
     </ProcessComponGraf>
     <ProcessComponGraf>
       <componType>1</componType>
@@ -892,7 +892,7 @@
         <version>1</version>
         <componGrafSequence>31</componGrafSequence>
       </processComponGrafPK>
-      <stateName>Superitendente Geral</stateName>
+      <stateName>Superitendente Geral &gt;</stateName>
     </ProcessComponGraf>
     <ProcessComponGraf>
       <componType>1</componType>
@@ -904,7 +904,7 @@
         <version>1</version>
         <componGrafSequence>39</componGrafSequence>
       </processComponGrafPK>
-      <stateName>Gerente</stateName>
+      <stateName>Gerente &gt;</stateName>
     </ProcessComponGraf>
   </list>
   <list>
@@ -1048,7 +1048,7 @@
       <processId>aumento_quadro</processId>
       <version>1</version>
       <sequence>46</sequence>
-      <attempts>1</attempts>
+      <attempts>0</attempts>
       <sucessFullMessage>Requisição criada no RM</sucessFullMessage>
       <serviceName></serviceName>
       <frequency>1</frequency>

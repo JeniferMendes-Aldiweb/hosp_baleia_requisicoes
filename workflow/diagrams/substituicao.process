@@ -233,31 +233,31 @@
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="76" x="400" y="310"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="106" height="76" x="400" y="310"/>
       <link businessObjects="task21"/>
       <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.9" incomingConnections="/0/@connections.5 /0/@connections.8"/>
       <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="/0/@children.11/@graphicsAlgorithm" relativeWidth="1.0" relativeHeight="0.51">
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="105" height="76" style="/0/@styles.78" cornerHeight="5" cornerWidth="5"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="106" height="76" style="/0/@styles.78" cornerHeight="5" cornerWidth="5"/>
       </children>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="95" height="66" x="5" y="5" style="/0/@styles.79" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Aprova&#xe7;&#xe3;o N&#xed;vel 2"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="96" height="66" x="5" y="5" style="/0/@styles.79" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Aprova&#xe7;&#xe3;o N&#xed;vel 2"/>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="60" x="840" y="318"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="106" height="60" x="840" y="318"/>
       <link businessObjects="servicetask44"/>
       <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.13" incomingConnections="/0/@connections.12"/>
       <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="/0/@children.12/@graphicsAlgorithm" relativeWidth="1.0" relativeHeight="0.51">
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="105" height="60" style="/0/@styles.103" cornerHeight="5" cornerWidth="5"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="106" height="60" style="/0/@styles.103" cornerHeight="5" cornerWidth="5"/>
       </children>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="95" height="50" x="5" y="5" style="/0/@styles.104" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Integra RM"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="96" height="50" x="5" y="5" style="/0/@styles.104" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Integra RM"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="5" y="5" id="com.totvs.tds.ecm.designer.task.service" stretchH="false" stretchV="false" proportional="false"/>
@@ -2884,9 +2884,9 @@
   <bpmn2:BpmnAnnotation id="annotationtask11" name="L&#xed;der ou >" outgoing="flow24" type="0"/>
   <bpmn2:BpmnTask id="task12" name="Aprova&#xe7;&#xe3;o N&#xed;vel 1" incoming="flow23 flow30" outgoing="flow25" type="80" loopType="0" authNotify="true" expediente="" selecionaColaboradores="1" esforcoCalculo="0" executionAttempts="0" frequency="0"/>
   <bpmn2:BpmnEndEvent id="endterminate14" name="Termina&#xe7;&#xe3;o imediata de processo" incoming="flow45" type="68" signalId="0"/>
-  <bpmn2:BpmnGateway id="exclusivegateway15" name="Aprovado?" incoming="flow38" outgoing="flow39 flow40 flow43" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>task9&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
+  <bpmn2:BpmnGateway id="exclusivegateway15" name="Aprovado?" incoming="flow38" outgoing="flow39 flow40 flow43" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>servicetask44&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
   <bpmn2:BpmnStartEvent id="startevent17" name="In&#xed;cio" incoming="flow24 flow33 flow39" outgoing="flow30 flow31" type="10" signalId="0" expediente="" selecionaColaboradores="1" esforcoCalculo="0"/>
-  <bpmn2:BpmnGateway id="exclusivegateway18" name="Aprovado?" incoming="flow25" outgoing="flow32 flow33 flow34" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>task7&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
+  <bpmn2:BpmnGateway id="exclusivegateway18" name="Aprovado?" incoming="flow25" outgoing="flow32 flow33 flow34" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>task21&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
   <bpmn2:BpmnAnnotation id="annotationtask19" name="RH" outgoing="flow35" type="0"/>
   <bpmn2:BpmnTask id="task21" name="Aprova&#xe7;&#xe3;o N&#xed;vel 2" incoming="flow32 flow35" outgoing="flow38" type="80" loopType="0" authNotify="true" expediente="" selecionaColaboradores="1" esforcoCalculo="0" executionAttempts="0" frequency="0"/>
   <bpmn2:SequenceFlow id="flow23" name="" sourceRef="annotationtask10" targetRef="task12" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
@@ -2902,6 +2902,6 @@
   <bpmn2:SequenceFlow id="flow39" name="" sourceRef="exclusivegateway15" targetRef="startevent17" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:SequenceFlow id="flow40" name="" sourceRef="exclusivegateway15" targetRef="endcancel9" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>
   <bpmn2:SequenceFlow id="flow43" name="" sourceRef="exclusivegateway15" targetRef="servicetask44"/>
-  <bpmn2:BpmnTask id="servicetask44" name="Integra RM" incoming="flow43" outgoing="flow45" type="82" managerMechanism="" loopType="0" authNotify="true" serviceName="" scriptFileName="substituicao.servicetask44.js" expediente="" selecionaColaboradores="1" emAtrasoNotificarResponsavel="false" emAtrasoNotificarResponsavelTolerancia="0.0" emAtrasoNotificarResponsavelFrequencia="0.0" esforcoCalculo="0" executionType="2" executionSucessfulMessage="Requisi&#xe7;&#xe3;o criada no RM"/>
+  <bpmn2:BpmnTask id="servicetask44" name="Integra RM" incoming="flow43" outgoing="flow45" type="82" managerMechanism="" loopType="0" authNotify="true" serviceName="" scriptFileName="substituicao.servicetask44.js" expediente="" selecionaColaboradores="1" emAtrasoNotificarResponsavel="false" emAtrasoNotificarResponsavelTolerancia="0.0" emAtrasoNotificarResponsavelFrequencia="0.0" esforcoCalculo="0" executionType="2" executionAttempts="0" executionSucessfulMessage="Requisi&#xe7;&#xe3;o criada no RM" frequency="0"/>
   <bpmn2:SequenceFlow id="flow45" name="" sourceRef="servicetask44" targetRef="endterminate14" atividadeFluxo=""/>
 </xmi:XMI>
