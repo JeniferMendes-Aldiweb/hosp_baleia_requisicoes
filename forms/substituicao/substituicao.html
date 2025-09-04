@@ -1,3 +1,4 @@
+
 <html>
 
 <head>
@@ -18,134 +19,166 @@
 			</div>
 			<h3 class="text-center">Alteração de Dados Funcionais</h3>
 
-			<div class="row">
-				<div class="col-md-6">
-					<label for="selRequisitante">Requisitante:</label>
-					<select id="selRequisitante" name="selRequisitante" class="form-control" required>
-						<option value=""></option>
-						<option value="1">1 - Jenifer Mendes</option>
-						<option value="1">2 - Lucas Campos</option>
-					</select>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<a data-toggle="collapse" href="#panelIdentificacao">
+						<h4 class="panel-title">Identificação</h4>
+					</a>
 				</div>
-			</div>
+				<div id="panelIdentificacao" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-6">
+								<label for="selRequisitante">Requisitante:</label>
+								<select id="selRequisitante" name="selRequisitante" class="form-control" required>
+									<option value=""></option>
+									<option value="1">1 - Jenifer Mendes</option>
+									<option value="1">2 - Lucas Campos</option>
+								</select>
+							</div>
+						</div>
 
-			<div class="col-md-12 row g-3">
-				<div class="col-md-6">
-					<label for="selfuncionario">Funcionario:</label>
-					<select id="selfuncionario" name="selfuncionario" class="form-control" required>
-						<option value=""></option>
-						<option value="1">1 - Jenifer Mendes</option>
-						<option value="1">2 - Lucas Campos</option>
-					</select>
-				</div>
-				<div class="col-md-6">
-					<label for="inpDtPrevisao">Previsão:</label>
-					<input id="inpDtPrevisao" name="inpDtPrevisao" type="date"></input>
-				</div>
-			</div>
+						<div class="col-md-12 row g-3">
+							<div class="col-md-6">
+								<label for="selfuncionario">Funcionario:</label>
+								<select id="selfuncionario" name="selfuncionario" class="form-control" required>
+									<option value=""></option>
+									<option value="1">1 - Jenifer Mendes</option>
+									<option value="1">2 - Lucas Campos</option>
+								</select>
+							</div>
+							<div class="col-md-6">
+								<label for="inpDtPrevisao">Previsão:</label>
+								<input id="inpDtPrevisao" name="inpDtPrevisao" type="date" class="form-control"></input>
+							</div>
+						</div>
 
-			<div class="row">
-				<div class="col-md-12">
-					<label for="txtAreaJustificativa">Justificativa:</label>
-					<textarea id="txtAreaJustificativa" name="txtAreaJustificativa" rows="5" cols="30"></textarea>
-				</div>
-			</div>
-			<div>
-				<div class="row">
-					<h4 class="text-center">Dados atuais do Funcionario</h4>
-					<div class="col-md-12">
-						<label for="selFunOrigem">Função de Origem:</label>
-						<select id="selFunOrigem" name="selFunOrigem" class="form-control" required>
-							<option value=""></option>
-							<option value="1">função01</option>
-							<option value="1">função02</option>
-						</select>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h5>Tabela Salarial</h5>
-						<label for="SelNivelSal">Nivel Salarial de Origem:</label>
-						<select id="SelNivelSal" name="SelNivelSal" class="form-control" required>
-							<option value=""></option>
-							<option value="1">nivel salarial01</option>
-							<option value="1">nivel salarial02</option>
-						</select>
-
-						<label for="SelFaixaSal">Faixa Salarial de Origem:</label>
-						<select id="SelFaixaSal" name="SelFaixaSal" class="form-control" required>
-							<option value=""></option>
-							<option value="1">faixa salarial 01</option>
-							<option value="1">faixa salarial 02</option>
-						</select>
-
-						<label for="SalSalOrigem">Salario de Origem:</label>
-						<select id="SalSalOrigem" name="SalSalOrigem" class="form-control" required>
-							<option value=""></option>
-							<option value="1">salario de origem 01</option>
-							<option value="1">salario de origem 02</option>
-						</select>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="text-center">Proposta de Alteração</h4>
-						<label for="SelFunProposta">Função Proposta:</label>
-						<select id="SelFunProposta" name="SelFunProposta" class="form-control" required>
-							<option value=""></option>
-							<option value="1">função proposta</option>
-							<option value="1">função proposta</option>
-						</select>
-
-						<h5>A Coligada 1 não considera a tabela salarial em suas propostas.</h5>
-						<label for="Nivel">Nivel</label>
-						<select id="Nivel" name="Nivel" class="form-control" required>
-							<option value=""></option>
-							<option value="1">nivel 01</option>
-							<option value="1">nivel 02</option>
-						</select>
-
-						<label for="Faixa">Faixa</label>
-						<select id="Faixa" name="Faixa" class="form-control" required>
-							<option value=""></option>
-							<option value="1">faixa 01</option>
-							<option value="1">faixa 02</option>
-						</select>
-
-						<label for="Percentual">Percentual</label>
-						<input type="number" id="Percentual" name="Percentual" step="0.01" min="0" placeholder="0,00">
-
-						<label for="Salario">Salario</label>
-						<input type="number" id="Salario" name="Salario" min="0" placeholder="Somente números">
-
-					</div>
-				</div>
-
-				<div class="col-md-12 row g-3">
-					<div class="col-md-2">
-						<div class="form-check form-switch">
-							<input class="form-check-input" type="checkbox" name="GerarSubstituicao"
-								id="GerarSubstituicao">
-							<label class="form-check-label" for="GerarSubstituicao">Gerar Subistituição</label>
+						<div class="row">
+							<div class="col-md-12">
+								<label for="txtAreaJustificativa">Justificativa:</label>
+								<textarea id="txtAreaJustificativa" name="txtAreaJustificativa" rows="5" cols="30" class="form-control"></textarea>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-5">
-						<label for="MudancaFun">Motivo de Mudança de Função:</label>
-						<select id="MudancaFun" name="MudancaFun" class="form-control" required>
-							<option value=""></option>
-							<option value="1">Mudança 01</option>
-							<option value="1">Mudança 02</option>
-						</select>
-					</div>
-					<div class="col-md-5">
-						<label for="MudancaSal">Motivo de Mudança de Salario:</label>
-						<select id="MudancaSal" name="MudancaSal" class="form-control" required>
-							<option value=""></option>
-							<option value="1">Mudança 01</option>
-							<option value="1">Mudança 02</option>
-						</select>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<a data-toggle="collapse" href="#panelDadosAtuaisFuncionario">
+						<h4 class="panel-title">Dados atuais do Funcionário</h4>
+					</a>
+				</div>
+				<div id="panelDadosAtuaisFuncionario" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-12">
+								<label for="selFunOrigem">Função de Origem:</label>
+								<select id="selFunOrigem" name="selFunOrigem" class="form-control" required>
+									<option value=""></option>
+									<option value="1">função01</option>
+									<option value="1">função02</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h5>Tabela Salarial</h5>
+								<label for="SelNivelSal">Nivel Salarial de Origem:</label>
+								<select id="SelNivelSal" name="SelNivelSal" class="form-control" required>
+									<option value=""></option>
+									<option value="1">nivel salarial01</option>
+									<option value="1">nivel salarial02</option>
+								</select>
+
+								<label for="SelFaixaSal">Faixa Salarial de Origem:</label>
+								<select id="SelFaixaSal" name="SelFaixaSal" class="form-control" required>
+									<option value=""></option>
+									<option value="1">faixa salarial 01</option>
+									<option value="1">faixa salarial 02</option>
+								</select>
+
+								<label for="SalSalOrigem">Salario de Origem:</label>
+								<select id="SalSalOrigem" name="SalSalOrigem" class="form-control" required>
+									<option value=""></option>
+									<option value="1">salario de origem 01</option>
+									<option value="1">salario de origem 02</option>
+								</select>
+							</div>
+						</div>
 					</div>
 				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<a data-toggle="collapse" href="#panelPropostaAlteracao">
+						<h4 class="panel-title">Proposta de Alteração</h4>
+					</a>
+				</div>
+				<div id="panelPropostaAlteracao" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-12">
+								<label for="SelFunProposta">Função Proposta:</label>
+								<select id="SelFunProposta" name="SelFunProposta" class="form-control" required>
+									<option value=""></option>
+									<option value="1">função proposta</option>
+									<option value="1">função proposta</option>
+								</select>
+
+								<h5>A Coligada 1 não considera a tabela salarial em suas propostas.</h5>
+								<label for="Nivel">Nivel</label>
+								<select id="Nivel" name="Nivel" class="form-control" required>
+									<option value=""></option>
+									<option value="1">nivel 01</option>
+									<option value="1">nivel 02</option>
+								</select>
+
+								<label for="Faixa">Faixa</label>
+								<select id="Faixa" name="Faixa" class="form-control" required>
+									<option value=""></option>
+									<option value="1">faixa 01</option>
+									<option value="1">faixa 02</option>
+								</select>
+
+								<label for="Percentual">Percentual</label>
+								<input type="number" id="Percentual" name="Percentual" step="0.01" min="0" placeholder="0,00" class="form-control">
+
+								<label for="Salario">Salario</label>
+								<input type="number" id="Salario" name="Salario" min="0" placeholder="Somente números" class="form-control">
+
+							</div>
+						</div>
+
+						<div class="col-md-12 row g-3">
+							<div class="col-md-2">
+								<div class="form-check form-switch">
+									<input class="form-check-input" type="checkbox" name="GerarSubstituicao"
+										id="GerarSubstituicao">
+									<label class="form-check-label" for="GerarSubstituicao">Gerar Subistituição</label>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<label for="MudancaFun">Motivo de Mudança de Função:</label>
+								<select id="MudancaFun" name="MudancaFun" class="form-control" required>
+									<option value=""></option>
+									<option value="1">Mudança 01</option>
+									<option value="1">Mudança 02</option>
+								</select>
+							</div>
+							<div class="col-md-5">
+								<label for="MudancaSal">Motivo de Mudança de Salario:</label>
+								<select id="MudancaSal" name="MudancaSal" class="form-control" required>
+									<option value=""></option>
+									<option value="1">Mudança 01</option>
+									<option value="1">Mudança 02</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</form>
 	</div>
 </body>
