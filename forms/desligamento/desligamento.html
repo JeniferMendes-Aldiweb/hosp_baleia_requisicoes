@@ -1,15 +1,99 @@
 <html>
+
 <head>
-	<link type="text/css" rel="stylesheet" href="/style-guide/css/fluig-style-guide.min.css"/>
+	<link type="text/css" rel="stylesheet" href="/style-guide/css/fluig-style-guide.min.css" />
 	<script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
 	<script type="text/javascript" src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="/portal/resources/js/mustache/mustache-min.js"></script>
 	<script type="text/javascript" src="/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
 </head>
+
 <body>
-<div class="fluig-style-guide">
-<form name="form" role="form">
-</form>
-</div>
+	<div class="fluig-style-guide">
+		<form name="form" role="form">
+
+			<!-- campos hidden -->
+			<div>
+				<input type="hidden" id="idRM" name="idRM"></input>
+				<input type="hidden" id="statusRM" name="statusRM"></input>
+			</div>
+			<h3 class="text-center">Requisição de Desligamento</h3>
+
+			<div class="row">
+				<div class="col-md-6">
+					<label for="selRequisitante">Requisitante:</label>
+					<select id="selRequisitante" name="selRequisitante" class="form-control" required>
+						<option value=""></option>
+						<option value="1">1 - Jenifer Mendes</option>
+						<option value="1">2 - Lucas Campos</option>
+					</select>
+				</div>
+			</div>
+
+
+			<h3 class="text-center">Parametros da Recisão</h3>
+			<div class="col-md-12">
+				<div class="form-check form-switch">
+					<input class="form-check-input" type="checkbox" name="consiExFunc" id="consiExFunc">
+					<label class="form-check-label" for="consiExFunc">Considerar Ex Funcionario (Demitidos na
+						competência
+						atual ou posterior)</label>
+				</div>
+			</div>
+			<div class="col-md-12 row g-3">
+				<div class="col-md-4">
+					<label for="selfuncionario">Funcionario:</label>
+					<select id="selfuncionario" name="selfuncionario" class="form-control" required>
+						<option value=""></option>
+						<option value="1">1 - Jenifer Mendes</option>
+						<option value="1">2 - Lucas Campos</option>
+					</select>
+				</div>
+				<div class="col-md-4">
+					<label for="inpDtPrevisao">Previsão:</label>
+					<input id="inpDtPrevisao" name="inpDtPrevisao" type="date"></input>
+				</div>
+				<div class="col-md-4">
+					<label for="DiasAvisp">Dias de Aviso:</label>
+					<input id="DiasAvisp" name="DiasAvisp" type="number"></input>
+				</div>
+			</div>
+
+			<div class="col-md-12 row g-3">
+				<div class="col-md-6">
+					<label for="TipoDemissao">Tipo Demissão:</label>
+					<select id="TipoDemissao" name="TipoDemissao" class="form-control" required>
+						<option value=""></option>
+						<option value="1">tipo 01</option>
+						<option value="1">tipo 02</option>
+					</select>
+				</div>
+				<div class="col-md-6">
+					<label for="MotivoDemissao">Motivo da Demissão:</label>
+					<select id="MotivoDemissao" name="MotivoDemissao" class="form-control" required>
+						<option value=""></option>
+						<option value="1">motivo 01</option>
+						<option value="1">motivo 02</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<label for="txtAreaJustificativa">Justificativa:</label>
+					<textarea id="txtAreaJustificativa" name="txtAreaJustificativa" rows="5" cols="30"></textarea>
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<div class="form-check form-switch">
+					<input class="form-check-input" type="checkbox" name="GerarSubistituicao" id="GerarSubistituicao">
+					<label class="form-check-label" for="GerarSubistituicao">Gerar Subistituição</label>
+				</div>
+			</div>
+
+		</form>
+	</div>
 </body>
+
 </html>
