@@ -28,7 +28,7 @@
     <processDefinitionVersionPK>
       <companyId>1</companyId>
       <processId>substituicao</processId>
-      <version>1</version>
+      <version>2</version>
     </processDefinitionVersionPK>
     <versionDescription></versionDescription>
     <formId>0</formId>
@@ -398,7 +398,7 @@
         <companyId>1</companyId>
         <processId>substituicao</processId>
         <expressionOrder>1</expressionOrder>
-        <version>1</version>
+        <version>2</version>
         <sequence>15</sequence>
       </conditionProcessStatePK>
       <condition>1==1</condition>
@@ -410,7 +410,7 @@
         <companyId>1</companyId>
         <processId>substituicao</processId>
         <expressionOrder>1</expressionOrder>
-        <version>1</version>
+        <version>2</version>
         <sequence>18</sequence>
       </conditionProcessStatePK>
       <condition>1==1</condition>
@@ -616,7 +616,7 @@
         <processId>substituicao</processId>
         <version>1</version>
       </workflowProcessEventPK>
-      <eventDescription>function servicetask44(attempt, message) {
+      <eventDescription>function servicetask44(attempt, message) {&#xd;
 }</eventDescription>
     </WorkflowProcessEvent>
   </list>
@@ -778,7 +778,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>substituicao</processId>
-        <version>1</version>
+        <version>2</version>
         <linkSequence>30</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -789,7 +789,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>substituicao</processId>
-        <version>1</version>
+        <version>2</version>
         <linkSequence>31</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -800,7 +800,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>substituicao</processId>
-        <version>1</version>
+        <version>2</version>
         <linkSequence>33</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -811,7 +811,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>substituicao</processId>
-        <version>1</version>
+        <version>2</version>
         <linkSequence>34</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -822,7 +822,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>substituicao</processId>
-        <version>1</version>
+        <version>2</version>
         <linkSequence>34</linkSequence>
         <bendSequence>2</bendSequence>
       </processLinkBendPK>
@@ -833,7 +833,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>substituicao</processId>
-        <version>1</version>
+        <version>2</version>
         <linkSequence>39</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -844,7 +844,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>substituicao</processId>
-        <version>1</version>
+        <version>2</version>
         <linkSequence>40</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -855,7 +855,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>substituicao</processId>
-        <version>1</version>
+        <version>2</version>
         <linkSequence>40</linkSequence>
         <bendSequence>2</bendSequence>
       </processLinkBendPK>
@@ -866,7 +866,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>substituicao</processId>
-        <version>1</version>
+        <version>2</version>
         <linkSequence>45</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>

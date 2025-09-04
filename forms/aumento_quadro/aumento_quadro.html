@@ -9,6 +9,93 @@
 <body>
 <div class="fluig-style-guide">
 <form name="form" role="form">
+
+			<!-- campos hidden -->
+		<div>
+			<input type="hidden" id="idRM" name="idRM"></input>
+			<input type="hidden" id="statusRM" name="statusRM"></input>
+		</div>
+		<h3 class="text-center">Aumento de Quadro</h3>
+
+
+		<div class="col-md-12 row g-3">
+			<div class="col-md-6">
+				<label for="selRequisitante">Requisitante:</label>
+				<select id="selRequisitante" name="selRequisitante" class="form-control" required>
+					<option value=""></option>
+					<option value="1">1 - Jenifer Mendes</option>
+					<option value="1">2 - Lucas Campos</option>
+				</select>
+			</div>
+
+			<div class="col-md-3">
+				<label for="inpDtPrevisao">Previsão:</label>
+				<input id="inpDtPrevisao" name="inpDtPrevisao" type="date"></input>
+			</div>
+
+			<div class="col-md-3">
+				<label for="VagasSolicitadas">Vagas Solicitadas:</label>
+				<input id="VagasSolicitadas" name="VagasSolicitadas" type="number"></input>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<label for="txtAreaJustificativa">Justificativa:</label>
+				<textarea id="txtAreaJustificativa" name="txtAreaJustificativa" rows="5" cols="30"></textarea>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h5>Local de Destino</h5>
+				<label for="SelFilial">Filial:</label>
+				<select id="SelFilial" name="SelFilial" class="form-control" required>
+					<option value=""></option>
+					<option value="1">Filial 01</option>
+					<option value="1">Filial 02</option>
+				</select>
+
+				<label for="SelSecao">Seção:</label>
+				<select id="SelSecao" name="SelSecao" class="form-control" required>
+					<option value=""></option>
+					<option value="1">Seção 01</option>
+					<option value="1">Seção 02</option>
+				</select>
+
+				<label for="SelFuncao">Função:</label>
+				<select id="SelFuncao" name="SelFuncao" class="form-control" required>
+					<option value=""></option>
+					<option value="1">Função 01</option>
+					<option value="1">Função 02</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h5>Proposta Salarial</h5>
+				<h6>A coligada 01 não considera a tabela salarial em suas propostas.</h6>
+				<label for="SelNivel">Nivel:</label>
+				<select id="SelNivel" name="SelNivel" class="form-control" required>
+					<option value=""></option>
+					<option value="1">Nivel 01</option>
+					<option value="1">Nivel 02</option>
+				</select>
+
+				<label for="SelFaixa">Faixa:</label>
+				<select id="SelFaixa" name="SelFaixa" class="form-control" required>
+					<option value=""></option>
+					<option value="1">Faixa 01</option>
+					<option value="1">Faixa 02</option>
+				</select>
+
+				<label for="Salario">Salario:</label>
+				<input id="Salario" name="Salario" type="number" class="form-control" required></input>
+			</div>
+		</div>
+
 </form>
 </div>
 </body>
