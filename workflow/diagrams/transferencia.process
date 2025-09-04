@@ -63,17 +63,17 @@
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="76" x="400" y="310"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="106" height="76" x="400" y="310"/>
       <link businessObjects="task6"/>
       <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.0" incomingConnections="/0/@connections.1 /0/@connections.2"/>
       <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="/0/@children.2/@graphicsAlgorithm" relativeWidth="1.0" relativeHeight="0.51">
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="105" height="76" style="/0/@styles.55" cornerHeight="5" cornerWidth="5"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="106" height="76" style="/0/@styles.55" cornerHeight="5" cornerWidth="5"/>
       </children>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="95" height="66" x="5" y="5" style="/0/@styles.56" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Aprova&#xe7;&#xe3;o N&#xed;vel 2"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="96" height="66" x="5" y="5" style="/0/@styles.56" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Aprova&#xe7;&#xe3;o N&#xed;vel 2"/>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -110,7 +110,7 @@
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="95" height="55" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="RH"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="55" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="RH&#xA;"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0">
@@ -168,7 +168,7 @@
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="80" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="Consenso&#xA;Gerentes >&#xA;Origem e&#xA;Destino&#xA;"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="93" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="Consenso&#xA;Gerentes >&#xA;Origem e&#xA;Destino&#xA;"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0">
@@ -187,7 +187,7 @@
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="95" height="55" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="L&#xed;der ou >"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="55" x="10" y="13" font="/0/@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE" value="L&#xed;der ou >&#xA;"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0">
@@ -223,17 +223,17 @@
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="105" height="60" x="840" y="318"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="106" height="60" x="840" y="318"/>
       <link businessObjects="servicetask14"/>
       <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="/0/@connections.10" incomingConnections="/0/@connections.9"/>
       <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="/0/@children.10/@graphicsAlgorithm" relativeWidth="1.0" relativeHeight="0.51">
         <graphicsAlgorithm xsi:type="al:Ellipse" filled="false" lineVisible="false"/>
       </anchors>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="105" height="60" style="/0/@styles.66" cornerHeight="5" cornerWidth="5"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="106" height="60" style="/0/@styles.66" cornerHeight="5" cornerWidth="5"/>
       </children>
       <children visible="true">
-        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="95" height="50" x="5" y="5" style="/0/@styles.67" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Integra RM"/>
+        <graphicsAlgorithm xsi:type="al:MultiText" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" width="96" height="50" x="5" y="5" style="/0/@styles.67" font="/0/@fonts.1" horizontalAlignment="ALIGNMENT_CENTER" value="Integra RM"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="5" y="5" id="com.totvs.tds.ecm.designer.task.service" stretchH="false" stretchV="false" proportional="false"/>
@@ -2384,7 +2384,7 @@
     <fonts name="Arial" size="8"/>
     <fonts name="Arial" size="8" bold="true"/>
   </pi:Diagram>
-  <bpmn2:BpmnProcess id="transferencia" name="transferencia" serverId="fluig_local" version="6" author="" extendedFields="&lt;list/>" cardIndex="transferencia" formSource="local" category="requisicoes_rh" volume="Default" expedient="Full" instruction="" keyWord="" complementsLevel="1" notifyResponsibleComplements="true" notifyRequisitionerComplements="true"/>
+  <bpmn2:BpmnProcess id="transferencia" name="transferencia" serverId="fluig_local" version="7" author="" extendedFields="&lt;list/>" cardIndex="transferencia" formSource="local" category="requisicoes_rh" volume="Default" expedient="Full" instruction="" keyWord="" complementsLevel="1" notifyResponsibleComplements="true" notifyRequisitionerComplements="true"/>
   <bpmn2:BpmnPool id="bpmnpool1" name="Pool" cores="FFFFFF"/>
   <bpmn2:BpmnSwimLane id="bpmnswimlane2" name="&#xc1;rea" cores="9F9F9F"/>
   <bpmn2:BpmnSwimLane id="bpmnswimlane3" name="N&#xed;vel 1" cores="C0C0C0"/>
@@ -2393,12 +2393,12 @@
   <bpmn2:BpmnTask id="task6" name="Aprova&#xe7;&#xe3;o N&#xed;vel 2" incoming="flow18 flow19" outgoing="flow17" type="80" loopType="0" authNotify="true" expediente="" selecionaColaboradores="1" esforcoCalculo="0" executionAttempts="0" frequency="0"/>
   <bpmn2:BpmnEndEvent id="endcancel7" name="Fim com cancelamento de processo" incoming="flow21 flow25 flow29" type="65" signalId="0"/>
   <bpmn2:BpmnAnnotation id="annotationtask8" name="RH" outgoing="flow18" type="0"/>
-  <bpmn2:BpmnGateway id="exclusivegateway9" name="Aprovado?" incoming="flow30" outgoing="flow19 flow20 flow21" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>task7&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
+  <bpmn2:BpmnGateway id="exclusivegateway9" name="Aprovado?" incoming="flow30" outgoing="flow19 flow20 flow21" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>task6&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
   <bpmn2:BpmnEndEvent id="endterminate10" name="Termina&#xe7;&#xe3;o imediata de processo" incoming="flow27" type="68" signalId="0"/>
   <bpmn2:BpmnAnnotation id="annotationtask11" name="Consenso Gerentes > Origem e Destino" outgoing="flow22" type="0"/>
   <bpmn2:BpmnAnnotation id="annotationtask12" name="L&#xed;der ou >" outgoing="flow23" type="0"/>
-  <bpmn2:BpmnGateway id="exclusivegateway13" name="Aprovado?" incoming="flow17" outgoing="flow24 flow25 flow26" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>task9&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
-  <bpmn2:BpmnTask id="servicetask14" name="Integra RM" incoming="flow26" outgoing="flow27" type="82" managerMechanism="" loopType="0" authNotify="true" serviceName="" scriptFileName="transferencia.servicetask14.js" expediente="" selecionaColaboradores="1" emAtrasoNotificarResponsavel="false" emAtrasoNotificarResponsavelTolerancia="0.0" emAtrasoNotificarResponsavelFrequencia="0.0" esforcoCalculo="0" executionType="2" executionSucessfulMessage="Requisi&#xe7;&#xe3;o criada no RM"/>
+  <bpmn2:BpmnGateway id="exclusivegateway13" name="Aprovado?" incoming="flow17" outgoing="flow24 flow25 flow26" type="120" condition="&lt;list>&#xA;  &lt;org.eclipse.bpmn2.impl.ConditionImpl>&#xA;    &lt;order>1&lt;/order>&#xA;    &lt;expression>1==1&lt;/expression>&#xA;    &lt;targetTask>servicetask14&lt;/targetTask>&#xA;    &lt;conditionType>0&lt;/conditionType>&#xA;  &lt;/org.eclipse.bpmn2.impl.ConditionImpl>&#xA;&lt;/list>"/>
+  <bpmn2:BpmnTask id="servicetask14" name="Integra RM" incoming="flow26" outgoing="flow27" type="82" managerMechanism="" loopType="0" authNotify="true" serviceName="" scriptFileName="transferencia.servicetask14.js" expediente="" selecionaColaboradores="1" emAtrasoNotificarResponsavel="false" emAtrasoNotificarResponsavelTolerancia="0.0" emAtrasoNotificarResponsavelFrequencia="0.0" esforcoCalculo="0" executionType="2" executionAttempts="0" executionSucessfulMessage="Requisi&#xe7;&#xe3;o criada no RM" frequency="0"/>
   <bpmn2:BpmnStartEvent id="startevent15" name="In&#xed;cio" incoming="flow20 flow23 flow24" outgoing="flow28 flow29" type="10" signalId="0" expediente="" selecionaColaboradores="1" esforcoCalculo="0"/>
   <bpmn2:BpmnTask id="task16" name="Aprova&#xe7;&#xe3;o N&#xed;vel 1" incoming="flow22 flow28" outgoing="flow30" type="80" managerMechanism="mecAtr_consGerOriDest" managerAssignmentControllerString="&lt;org.eclipse.bpmn2.impl.AssignmentControllerCustom>&#xA;  &lt;mechanismName>mecAtr_consGerOriDest&lt;/mechanismName>&#xA;&lt;/org.eclipse.bpmn2.impl.AssignmentControllerCustom>" loopType="0" authNotify="true" expediente="" confirmarSenha="true" inibeOpcaoTransferir="true" atividadeConjunta="true" consenso="100" selecionaColaboradores="2" esforcoCalculo="0" executionAttempts="0" frequency="0"/>
   <bpmn2:SequenceFlow id="flow17" name="" sourceRef="task6" targetRef="exclusivegateway13" atividadeFluxo="" atividadeRetorno="" extendedFields="&lt;list/>"/>

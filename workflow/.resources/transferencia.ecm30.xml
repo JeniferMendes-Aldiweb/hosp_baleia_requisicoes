@@ -28,7 +28,7 @@
     <processDefinitionVersionPK>
       <companyId>1</companyId>
       <processId>transferencia</processId>
-      <version>6</version>
+      <version>7</version>
     </processDefinitionVersionPK>
     <versionDescription></versionDescription>
     <formId>0</formId>
@@ -400,11 +400,11 @@
         <companyId>1</companyId>
         <processId>transferencia</processId>
         <expressionOrder>1</expressionOrder>
-        <version>6</version>
+        <version>7</version>
         <sequence>9</sequence>
       </conditionProcessStatePK>
       <condition>1==1</condition>
-      <destinationSequenceId>0</destinationSequenceId>
+      <destinationSequenceId>6</destinationSequenceId>
       <conditionType>0</conditionType>
     </ConditionProcessState>
     <ConditionProcessState>
@@ -412,11 +412,11 @@
         <companyId>1</companyId>
         <processId>transferencia</processId>
         <expressionOrder>1</expressionOrder>
-        <version>6</version>
+        <version>7</version>
         <sequence>13</sequence>
       </conditionProcessStatePK>
       <condition>1==1</condition>
-      <destinationSequenceId>0</destinationSequenceId>
+      <destinationSequenceId>14</destinationSequenceId>
       <conditionType>0</conditionType>
     </ConditionProcessState>
   </list>
@@ -780,7 +780,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>6</version>
+        <version>7</version>
         <linkSequence>20</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -791,7 +791,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>6</version>
+        <version>7</version>
         <linkSequence>21</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -802,7 +802,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>6</version>
+        <version>7</version>
         <linkSequence>21</linkSequence>
         <bendSequence>2</bendSequence>
       </processLinkBendPK>
@@ -813,7 +813,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>6</version>
+        <version>7</version>
         <linkSequence>24</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -824,7 +824,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>6</version>
+        <version>7</version>
         <linkSequence>25</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -835,7 +835,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>6</version>
+        <version>7</version>
         <linkSequence>25</linkSequence>
         <bendSequence>2</bendSequence>
       </processLinkBendPK>
@@ -846,7 +846,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>6</version>
+        <version>7</version>
         <linkSequence>27</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -857,7 +857,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>6</version>
+        <version>7</version>
         <linkSequence>28</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -868,7 +868,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>6</version>
+        <version>7</version>
         <linkSequence>29</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -885,7 +885,7 @@
       <processId>transferencia</processId>
       <version>1</version>
       <sequence>14</sequence>
-      <attempts>1</attempts>
+      <attempts>0</attempts>
       <sucessFullMessage>Requisição criada no RM</sucessFullMessage>
       <serviceName></serviceName>
       <frequency>1</frequency>
