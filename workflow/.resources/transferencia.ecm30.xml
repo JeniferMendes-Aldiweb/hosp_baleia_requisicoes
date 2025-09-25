@@ -14,7 +14,7 @@
     <snapshotFrequency>0</snapshotFrequency>
     <baseDay>0</baseDay>
     <baseMonth>0</baseMonth>
-    <periodId>Full</periodId>
+    <periodId>Default</periodId>
     <uniqueCardVersion>false</uniqueCardVersion>
     <keyWord></keyWord>
     <complementsLevel>1</complementsLevel>
@@ -28,7 +28,7 @@
     <processDefinitionVersionPK>
       <companyId>1</companyId>
       <processId>transferencia</processId>
-      <version>7</version>
+      <version>1</version>
     </processDefinitionVersionPK>
     <versionDescription></versionDescription>
     <formId>0</formId>
@@ -400,7 +400,7 @@
         <companyId>1</companyId>
         <processId>transferencia</processId>
         <expressionOrder>1</expressionOrder>
-        <version>7</version>
+        <version>1</version>
         <sequence>9</sequence>
       </conditionProcessStatePK>
       <condition>1==1</condition>
@@ -412,7 +412,7 @@
         <companyId>1</companyId>
         <processId>transferencia</processId>
         <expressionOrder>1</expressionOrder>
-        <version>7</version>
+        <version>1</version>
         <sequence>13</sequence>
       </conditionProcessStatePK>
       <condition>1==1</condition>
@@ -780,7 +780,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>20</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -791,7 +791,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>21</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -802,7 +802,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>21</linkSequence>
         <bendSequence>2</bendSequence>
       </processLinkBendPK>
@@ -813,7 +813,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>24</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -824,7 +824,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>25</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -835,7 +835,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>25</linkSequence>
         <bendSequence>2</bendSequence>
       </processLinkBendPK>
@@ -846,7 +846,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>27</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -857,7 +857,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>28</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
@@ -868,7 +868,7 @@
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>transferencia</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>29</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>

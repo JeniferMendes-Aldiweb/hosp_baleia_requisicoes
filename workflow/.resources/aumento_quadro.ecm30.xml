@@ -14,7 +14,7 @@
     <snapshotFrequency>0</snapshotFrequency>
     <baseDay>0</baseDay>
     <baseMonth>0</baseMonth>
-    <periodId>Full</periodId>
+    <periodId>Default</periodId>
     <uniqueCardVersion>false</uniqueCardVersion>
     <keyWord></keyWord>
     <complementsLevel>1</complementsLevel>
